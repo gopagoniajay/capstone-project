@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Weights
+*.pth
+*.pt
+*.h5
+*.pkl
+
+# Data and Arrays
+data/
+*.npy
+
+# Results and Outputs
+results/
+randomsplit results/
+loso results/
+personalization loso results/
+personalization_results.txt
+extracted_paper_text.txt
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
